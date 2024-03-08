@@ -1,0 +1,147 @@
+body {
+  font-family: Helvetica;
+}
+
+/*bagian main pada title dan navbar*/
+main {
+  background-color: #f1f3ff;
+  min-height: 500px;
+}
+
+
+/*bagian WY US*/
+.whyus {
+  margin-top: 100px;
+}
+
+.whyus .feature {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  padding: 18px;
+  margin: 5px 0;
+}
+
+/*bagian button*/
+.btn-sewa {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 0;
+}
+
+.btn-sewa:hover {
+  color: #5cb85f;
+  background-color: #ffffff;
+  border: 1px solid #5cb85f;
+}
+
+/*bagian carousel*/
+.carousel {
+  background-color: #f1f3ff;
+  width: 832px;
+  height: 270px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/Vector.svg");
+  margin-top: 50px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../images/Vector-kanan.svg");
+  margin-top: 50px;
+}
+
+
+/*bagian nav*/
+.nav-pills {
+  font-weight: 400px;
+  --bs-nav-pills-link-active-color: #f1f3ff;
+  --bs-nav-pills-link-active-bg: #5cb85f;
+  font-family: Helvetica;
+}
+.nav-link {
+  color: #000000;
+  font-family: Helvetica;
+}
+
+
+/*bagian CTA Banner*/
+.page-home-corporate-card {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  display: flex;
+}
+
+.page-home-corporate-card-title {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.page-home-corporate-card-description {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*cars.html bagian filtering*/
+.search {
+  margin-top: -50px;
+}
+
+.search .search__card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.search .search__card .search__time .form-select {
+  background-image: url("../images/fi_clock.png");
+  background-size: 20px auto;
+}
+
+.search .search__card .form-select:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+
+.search .search__card .form-select option:hover,
+.search .search__card .form-select option:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
+
+.cars {
+  margin-top: 30px;
+}
+
+.cars .card {
+  width: 340px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}:last-child
+.cars .card .card-img-top {
+  width: 320px;
+  height: 180px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cars .card .cars__p {
+  font-size: 14px;
+  line-height: 20px;
+  height: 100px;
+}
