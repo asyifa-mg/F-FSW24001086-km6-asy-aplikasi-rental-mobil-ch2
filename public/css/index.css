@@ -8,7 +8,6 @@ main {
   min-height: 500px;
 }
 
-
 /*bagian WY US*/
 .whyus {
   margin-top: 100px;
@@ -53,7 +52,6 @@ main {
   margin-top: 50px;
 }
 
-
 /*bagian nav*/
 .nav-pills {
   font-weight: 400px;
@@ -65,7 +63,6 @@ main {
   color: #000000;
   font-family: Helvetica;
 }
-
 
 /*bagian CTA Banner*/
 .page-home-corporate-card {
@@ -96,29 +93,29 @@ main {
 }
 
 /*cars.html bagian filtering*/
-.search {
+.searching {
   margin-top: -50px;
 }
 
-.search .search__card {
+.searching .search__card {
   background: #ffffff;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
 
-.search .search__card .search__time .form-select {
-  background-image: url("../images/fi_clock.png");
+.searching .search__card .search__time .form-select {
+  background-image: url("../images/fi_clock.svg");
   background-size: 20px auto;
 }
 
-.search .search__card .form-select:hover {
+.searching .search__card .form-select:hover {
   border: 1px solid #5cb85f;
   border-radius: 2px;
 }
 
-.search .search__card .form-select option:hover,
-.search .search__card .form-select option:checked {
+.searching .search__card .form-select option:hover,
+.searching .search__card .form-select option:checked {
   background: #c9e7ca;
   color: #5cb85f;
 }
@@ -132,7 +129,8 @@ main {
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
-}:last-child
+}
+
 .cars .card .card-img-top {
   width: 320px;
   height: 180px;
